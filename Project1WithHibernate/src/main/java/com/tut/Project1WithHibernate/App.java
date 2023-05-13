@@ -15,7 +15,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( " Project started---" );
+        System.out.println( "  Project started---" );
         SessionFactory factory=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
        
         Student1 st=new Student1();
