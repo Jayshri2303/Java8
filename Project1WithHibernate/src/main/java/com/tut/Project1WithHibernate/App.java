@@ -23,7 +23,7 @@ public class App
         st.setName("Chhavi");
         st.setCity("Pundari");
         System.out.println("Student1---> "+st);
-        System.out.println("try to merger new branch in git repository");
+        System.out.println("try to merge new branch in git repository");
         address ad=new address();
         ad.setStreet("street1");
         ad.setCity("Delhi");
