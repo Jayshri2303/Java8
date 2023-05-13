@@ -17,7 +17,7 @@ public class App
     {
         System.out.println( "new Barnach changes Project started---" );
         SessionFactory factory=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
-        Student1 s2=new Student1();
+        Student1 s3=new Student1();
         Student1 st=new Student1();
         st.setId(103);
         st.setName("Chhavi");
